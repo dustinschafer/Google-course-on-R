@@ -1,0 +1,11 @@
+library(tidyverse)
+names <- c("Dustin", "Angela", "Quinten", "Ellison")
+ages <- c(46,46,16,13)
+people <- data.frame (names, ages)
+head (people)
+str (people)
+glimpse(people)
+mutate (people, age_20 = ages+20)
+
+data ("diamonds")
+View (diamonds)
